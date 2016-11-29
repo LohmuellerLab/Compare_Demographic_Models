@@ -1,7 +1,7 @@
 # Compare_SFS_SMC
-Scripts associated with Beichman &amp; Lohmueller (2016), in preparation, comparing SFS and SMC-based demographic inference methods
+Coming soon! Scripts associated with Beichman &amp; Lohmueller (2016), in preparation, comparing SFS and SMC-based demographic inference methods
 
-The following scripts are in this repository:
+The following scripts will be in this repository:
 
 (1) getExpectedSFS_fromMSMC_inDadi_2_4_8_Haplotypes_Nov28_v1.0.py : Python script to calculate the expected SFS under the demographic histories inferred using MSMC by Schiffels & Durbin (2014)
 
