@@ -24,7 +24,7 @@
 
 ###### **Simulate\_10kb_Blocks/**: Simulate 6300 x 10kb sequence blocks for comparison with neutral 1000 Genomes Data (includes file of recombination rates based on empirical 10kb neutral windows)
 
-###### **Simulate\_80x30Mb_chromosomes/**: Simulate 80 x 30Mb "chromosomes" to use as input for MSMC (includes file of recombination rates for 100kb windows based on the deCode project)
+###### **Simulate\_80x30Mb_chromosomes/**: Simulate 80 x 30Mb "chromosomes" to use as input for MSMC (includes file of recombination rates for 100kb windows based on the deCode project (Kong et al. 2010; Phung et al. 2016))
 
 #### Scripts to get expected site frequency spectrum (SFS) in dadi for each published demographic model 
 
@@ -33,7 +33,7 @@
 
 #### Scripts to calculate linkage disequilibrium decay from simulated data
 
-###### **Calculate\_LD\_Decay\_PhysicalDistance/**: scripts to convert MaCS output to vcf format, calcuate genotype-r2 using vcftools, bin r2 values by physical distance between SNPs, and average. 
+###### **Calculate\_LD\_Decay\_PhysicalDistance/**: scripts to convert MaCS output to vcf format, calcuate genotype-r2 using vcftools (Danecek et al. 2011), bin r2 values by physical distance between SNPs, and average. 
 
 #### Scripts to calculate linkage disequilibrium decay from empirical 1000 Genomes data
 
