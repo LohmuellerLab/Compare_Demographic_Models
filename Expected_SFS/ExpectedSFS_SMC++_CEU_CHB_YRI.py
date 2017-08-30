@@ -3,7 +3,7 @@
 # Author: Beichman, Annabel
 # Contact: annabel.beichman@gmail.com
 
-# Purpose: Use dadi (Gutenkunst et al. 2010) functions to calculate
+# Purpose: Use dadi (Gutenkunst et al. 2009) functions to calculate
 # the expected proportional site frequency spectrum
 # under a stepwise demographic model inferred by Terhorst, Kamm & Song (2017) in SMC++
 # for CEU, CHB, YRI populations
