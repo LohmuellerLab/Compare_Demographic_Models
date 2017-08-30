@@ -37,4 +37,4 @@
 
 #### Scripts to calculate linkage disequilibrium decay from empirical 1000 Genomes data
 
-###### **Tanya Phung's scripts**: https://github.com/tnphung/1000G\_Summary_Stats
+###### **Tanya Phung's scripts**: https://github.com/tnphung/1000G_Summary_Stats
