@@ -3,8 +3,9 @@
 ### "Comparison of single genome and allele frequency data reveals discordant demographic histories"
 ### biorxiv: 
 
+#### Contact: Annabel Beichman (annabel.beichman@gmail.com)
 
-##### _These scripts evaluate the fit of the following published demographic models to empirical data for the following three statistics:_
+#### _These scripts evaluate the fit of the following published demographic models to empirical data for the following three statistics:_
 
 (1) genome-wide and neutral heterozygosity 
 
