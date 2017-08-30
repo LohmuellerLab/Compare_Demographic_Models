@@ -4,6 +4,7 @@
 ### biorxiv: 
 
 #### Contact: Annabel Beichman (annabel.beichman@gmail.com)
+#### August 30, 2017
 
 #### _These scripts evaluate the fit of the following published demographic models to empirical data for the following three statistics:_
 
