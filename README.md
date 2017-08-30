@@ -1,19 +1,36 @@
-# Compare_SFS_SMC
-Coming soon! Scripts associated with Beichman &amp; Lohmueller (2016), in preparation, comparing SFS and SMC-based demographic inference methods
+# Compare\_Demographic_Models
+### These are the scripts associated with Beichman, Phung & Lohmueller (2017): 
+### "Comparison of single genome and allele frequency data reveals discordant demographic histories"
+### biorxiv: 
 
-The following scripts will be in this repository:
 
-(1) getExpectedSFS_fromMSMC_inDadi_2_4_8_Haplotypes_Nov28_v1.0.py : Python script to calculate the expected SFS under the demographic histories inferred using MSMC by Schiffels & Durbin (2014)
+##### _These scripts evaluate the fit of the following published demographic models to empirical data for the following three statistics:_
+(1) genome-wide and neutral heterozygosity 
 
-(2) multinomial_poisson_likelihood_Functions.py : Python script to calculate multinomical and Poisson log likelihood of expected SFSs
+(2) linkage disequilibrium decay
 
-(3) simulateGutenkunstExpSFS_OutOfAfrica.py : a modification of Gutenkunst et al.'s (2010) code to calculate the expected SFS under their Out of Africa Model
+(3) expected site frequency spectrum (SFS)
 
-(4) SimulateGutenkunst_OutOfAfrica_inMaCS.sh : bash script to use MaCS (Chen et al. 2009) to simulate data under the Gutenkunst Out of Africa Model 
+#### Demographic Models (CEU, CHB, YRI): 
+* SFS-based (dadi): Gutenkunst et al. (2009)
+* MSMC: Li & Durbin (2011) 
+* SMC++: Terhorst, Kamm & Song 2017)
 
-(5) SimulateGutenkunst_OutofAfrica_plusExplosiveGrowth_inMaCS_v1.0_Nov28.sh : bash script to use MaCS (Chen et al. 2009) to simulate data under the Gutenkunst Out of Africa Model plus Explosive growth based on parameters from Tennessen et al. (2012). 
+#####Scripts to simulate data in MaCS (Chen et al. 2010) under published demographic models for CEU, CHB, YRI populations
 
-(6) Simulate_GutenkunstPlusNeanderthal_inMSMS_v1.0_Nov28.sh : bash script to use MaCS (Chen et al. 2009) to simulate data under the Gutenkunst Out of Africa Model plus Neanderthal admixture based on parameters from Harris & Nielsen (2016).
+**Simulate\_100kb_Blocks/**: Simulate 20,000 x 100kb sequence blocks for comparison with whole genome 1000 Genomes Data (includes file of recombination rates for 100kb windows based on the deCode project)
 
-(7) Simulate_MSMC2HapModels_inMaCS_v1.0_Nov28.sh : bash script to use MaCS (Chen et al. 2009) to simulate data under the demographic models inferred using 2 haplotypes in MSMC
+**Simulate\_10kb_Blocks/**: Simulate 6300 x 10kb sequence blocks for comparison with neutral 1000 Genomes Data (includes file of recombination rates based on empirical 10kb neutral windows)
 
+**Simulate\_80x30Mb_chromosomes/**: Simulate 80 x 30Mb "chromosomes" to use as input for MSMC (includes file of recombination rates for 100kb windows based on the deCode project)
+
+####Scripts to get expected site frequency spectrum (SFS) in dadi for each published demographic model 
+
+**Expected\_SFS/**: use dadi (Gutenkunst et al. 2009) to get the expected SFS under each demographic model
+
+
+####Scripts to calculate linkage disequilibrium decay from simulated data
+**Calculate\_LD\_Decay\_PhysicalDistance/**: scripts to convert MaCS output to vcf format, calcuate genotype-r2 using vcftools, bin r2 values by physical distance between SNPs, and average. 
+
+####Scripts to calculate linkage disequilibrium decay from empirical 1000 Genomes data
+**Tanya Phung's scripts**: https://github.com/tnphung/1000G\_Summary_Stats
