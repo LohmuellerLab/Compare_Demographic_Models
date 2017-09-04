@@ -1,7 +1,7 @@
 # Compare\_Demographic_Models
 ### These are the scripts associated with Beichman, Phung & Lohmueller (2017): 
 ### "Comparison of single genome and allele frequency data reveals discordant demographic histories"
-### biorxiv: 
+### biorxiv: http://www.biorxiv.org/content/early/2017/08/31/182899
 
 #### Contact: Annabel Beichman (annabel.beichman@gmail.com)
 #### August 30, 2017
